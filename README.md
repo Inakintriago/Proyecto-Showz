@@ -1,53 +1,53 @@
-# 🎟️ Showz: Optimización de Gastos de Marketing en la Venta de Entradas
+# 🎟️ Showz: Marketing Expense Optimization in Ticket Sales
 
-## 📝 Contexto
-**Showz** es una empresa dedicada a la venta de entradas para eventos, y se encuentra buscando optimizar sus gastos de marketing para maximizar su rentabilidad. A través de este proyecto, se analizan los registros de visitas a su plataforma, los pedidos realizados, y los gastos de marketing del periodo de enero de 2017 a diciembre de 2018. El objetivo es comprender cómo los usuarios interactúan con la plataforma, cuándo se convierten en compradores, cuánto aportan a la empresa y cuándo los ingresos cubren el costo de adquisición de clientes. 
+## 📝 Context
+**Showz** is a company dedicated to selling tickets for events and is looking to optimize its marketing expenses to maximize profitability. Through this project, the records of platform visits, orders placed, and marketing expenses from January 2017 to December 2018 are analyzed. The goal is to understand how users interact with the platform, when they become buyers, how much they contribute to the company, and when the revenue covers the customer acquisition cost.
 
-El análisis se centra en responder preguntas clave sobre la adquisición y retención de clientes, y en recomendar cómo asignar de manera más efectiva los presupuestos de marketing.
+The analysis focuses on answering key questions about customer acquisition and retention and recommending how to allocate marketing budgets more effectively.
 
-## 🛠️ Herramientas Utilizadas
-- **Python**: Análisis de datos y modelado estadístico.
-- **Pandas**: Limpieza, transformación y análisis de datos.
-- **Matplotlib** y **Seaborn**: Visualización de patrones y tendencias en las visitas, compras y gastos de marketing.
-- **SciPy**: Análisis de significancia y validación de hipótesis.
-- **Jupyter Notebook**: Documentación interactiva y detallada del análisis.
+## 🛠️ Tools Used
+- **Python**: Data analysis and statistical modeling.
+- **Pandas**: Data cleaning, transformation, and analysis.
+- **Matplotlib** and **Seaborn**: Visualization of patterns and trends in visits, purchases, and marketing expenses.
+- **SciPy**: Significance analysis and hypothesis testing.
+- **Jupyter Notebook**: Interactive and detailed documentation of the analysis.
 
-## 📈 Análisis de Resultados
-El proyecto se estructuró en varias fases:
+## 📈 Results Analysis
+The project was structured in several phases:
 
-1. **Preprocesamiento de Datos**:
-   - Carga y limpieza de los datos de visitas, pedidos y gastos de marketing desde los archivos proporcionados.
-   - Verificación de los tipos de datos de cada columna y asegurarse de que cada dato esté en el formato correcto para el análisis.
-   - Generación de métricas clave, como la duración de las sesiones y el número de sesiones por usuario.
+1. **Data Preprocessing**:
+   - Loading and cleaning the data from visits, orders, and marketing expenses from the provided files.
+   - Verifying the data types of each column and ensuring each data point is in the correct format for analysis.
+   - Generating key metrics such as session duration and the number of sessions per user.
 
-2. **Análisis Descriptivo**:
-   - **Visitas**:
-     - Análisis del número de usuarios diarios, semanales y mensuales.
-     - Cálculo de la duración promedio de las sesiones.
-     - Determinación de la frecuencia con la que los usuarios regresan al sitio web.
-   - **Ventas**:
-     - Determinación del tiempo transcurrido entre el registro de los usuarios y su primera compra.
-     - Cálculo del tamaño promedio de compra y el valor total aportado por cada cliente (LTV).
+2. **Descriptive Analysis**:
+   - **Visits**:
+     - Analyzing the number of daily, weekly, and monthly users.
+     - Calculating the average session duration.
+     - Determining the frequency with which users return to the website.
+   - **Sales**:
+     - Determining the time elapsed between user registration and their first purchase.
+     - Calculating the average purchase size and the total value contributed by each customer (LTV).
    - **Marketing**:
-     - Análisis de los gastos de marketing por fuente y a lo largo del tiempo.
-     - Cálculo del costo de adquisición de clientes (CAC) por fuente de adquisición.
-     - Análisis de la rentabilidad de las inversiones en marketing (ROMI).
+     - Analyzing marketing expenses by source and over time.
+     - Calculating the customer acquisition cost (CAC) by acquisition source.
+     - Analyzing the return on marketing investment (ROMI).
 
-3. **Visualización de Datos**:
-   - Gráficos de líneas y barras para mostrar las tendencias de visitas y ventas por mes.
-   - Gráficos que comparan el ROMI y el CAC de cada fuente de adquisición.
-   - Visualización de la distribución de la duración de las sesiones y el tiempo entre visitas consecutivas.
+3. **Data Visualization**:
+   - Line and bar charts to show trends in visits and sales by month.
+   - Charts comparing ROMI and CAC by acquisition source.
+   - Visualizing the distribution of session duration and the time between consecutive visits.
 
-4. **Conclusiones**:
-   - **ROMI**: Las fuentes de adquisición con un ROMI superior a 1 (como las fuentes 1, 2 y 5) son las más rentables y deberían ser prioritarias en las inversiones de marketing.
-   - **Plataformas**: A pesar de que la mayoría de los usuarios utilizan la plataforma "Desktop", las inversiones de marketing deben ser diversificadas para impulsar la plataforma "Touch", que es más económica y tiene un mayor retorno por cliente.
-   - **Fuentes de Adquisición**: Las fuentes de adquisición 3, 4 y 5 tienen altos costos de adquisición de clientes y generan un ROMI bajo. Se recomienda optimizar las inversiones en las fuentes 1 y 2, que son más rentables y tienen costos de adquisición más bajos.
-   - **Usuarios y Ventas**: Los picos de usuarios y ventas en los meses de agosto de 2017 a enero de 2018 indican una oportunidad para concentrar esfuerzos de marketing en esos períodos.
-   - **Satisfacción del Cliente**: La mayoría de los usuarios regresan en menos de 10 días, lo que refleja una alta satisfacción del cliente y la posibilidad de fomentar recomendaciones y fidelización.
+4. **Conclusions**:
+   - **ROMI**: Acquisition sources with a ROMI greater than 1 (such as sources 1, 2, and 5) are the most profitable and should be prioritized in marketing investments.
+   - **Platforms**: Although most users use the "Desktop" platform, marketing investments should be diversified to boost the "Touch" platform, which is more cost-effective and provides a higher return per customer.
+   - **Acquisition Sources**: Acquisition sources 3, 4, and 5 have high customer acquisition costs and generate a low ROMI. It is recommended to optimize investments in sources 1 and 2, which are more profitable and have lower acquisition costs.
+   - **Users and Sales**: Peaks in users and sales from August 2017 to January 2018 indicate an opportunity to concentrate marketing efforts during those periods.
+   - **Customer Satisfaction**: Most users return in less than 10 days, reflecting high customer satisfaction and the potential to encourage recommendations and loyalty.
 
-## 📋 Recomendaciones
-- **Fuentes de Adquisición**: Priorizar las fuentes con un ROMI alto (1, 2 y 5) y optimizar las fuentes con un alto costo de adquisición (3, 4 y 5).
-- **Plataformas**: Diversificar el marketing para aumentar la participación en la plataforma "Touch", que ofrece un mejor retorno sobre la inversión.
-- **Gastos de Marketing**: Aumentar la inversión en los meses con mayores picos de usuarios y ventas, ajustando la estrategia en base a la estacionalidad de la demanda.
+## 📋 Recommendations
+- **Acquisition Sources**: Prioritize sources with high ROMI (1, 2, and 5) and optimize sources with high acquisition costs (3, 4, and 5).
+- **Platforms**: Diversify marketing to increase participation in the "Touch" platform, which offers a better return on investment.
+- **Marketing Expenses**: Increase investment during months with higher peaks in users and sales, adjusting the strategy based on seasonal demand.
 
-Este análisis proporciona información clave para que Showz optimice su asignación de presupuesto en marketing, mejore su ROI y maximice la retención y satisfacción de sus clientes.
+This analysis provides key insights for Showz to optimize its marketing budget allocation, improve ROI, and maximize customer retention and satisfaction.
